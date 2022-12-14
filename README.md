@@ -12,4 +12,8 @@
 #### initially you can run mlflow in local like "**mlflow -ui**" but it will throw an error because we did not set any database to store all artifacts and all.
 ![img.png](img%2Fimg.png)
 
+#### another way is **mlflow is mlflow ui --backend-store-uri sqlite:///mlflow.db**
+![img_1.png](img%2Fimg_1.png)
+
+#### now in [mlflow_tracking_1.py](mlflow_experiment%2Fmlflow_tracking_1.py) : import mlflow and set tracking uri as http://127.0.0.1:5000
 #### 
